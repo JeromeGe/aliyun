@@ -3,7 +3,7 @@
 # 使用阿里云子账号通过堡垒机做运维工作
 
 - 服务器开通后，会邮件回复服务器的相关信息和一个阿里云 RAM 子账号登陆信息，通过该子账号可以登陆堡垒机然后再进入服务器。
-- 阿里云 RAM 子账号需要先在 https://signin.aliyun.com/login.htm 登陆，第一次登陆需开启 MFA，详情参见 https://help.aliyun.com/document_detail/28635.html，MFA 是基于时间的一次性密码，如遇到输入 MFA 动态码报错，请尝试更新手机时间。
+- 阿里云 RAM 子账号需要先在 https://signin.aliyun.com/login.htm 登陆，第一次登陆需开启 MFA，详情参见 https://help.aliyun.com/document_detail/28635.html ，MFA 是基于时间的一次性密码，如遇到输入 MFA 动态码报错，请尝试更新手机时间。
 - 开启 MFA 后请重置子账号密码。
 - 使用子账号登陆堡垒机时，**@** 前的为用户名。
 - 申请服务器时会要求填写访问堡垒机公网 IP，只允许该 IP 访问堡垒机。
